@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/OpenSans-Normal",
+        "bold": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/OpenSans-Bold",
+        "italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/OpenSans-Italic",
+        "bold_italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/Segoe-Normal",
+        "bold": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/Segoe-Bold",
+        "italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/Segoe-Italic",
+        "bold_italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/RobotoSlab-Normal",
+        "bold": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/RobotoSlab-Bold",
+        "italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/currencies",
+        "bold": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/currencies",
+        "italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/currencies",
+        "bold_italic": "C:\/xampp\/htdocs\/polykart\/wp-content\/uploads\/wpo_wcpdf_ead524741d19e154984d354e9313ae50\/fonts\/currencies"
+    }
+}

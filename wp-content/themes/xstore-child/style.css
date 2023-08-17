@@ -1,0 +1,169 @@
+/*
+ Theme Name:   XStore Child
+ Theme URI:    http://8theme.com/
+ Description:  XStore Child Theme
+ Author:       8theme
+ Author URI:   http://8theme.com
+ Template:     xstore
+ Version:      1.0
+ Text Domain:  xstore-child
+*/
+body.blog .elementor-social-icons-wrapper .elementor-icon i:before,body.blog .elementor-social-icons-wrapper .elementor-icon svg:before {
+    transform: translateY(50%);
+}
+body.single-product .elementor-social-icons-wrapper .elementor-icon i:before,body.single-product .elementor-social-icons-wrapper .elementor-icon svg:before,body.woocommerce-page .elementor-social-icons-wrapper .elementor-icon i:before,body.woocommerce-page .elementor-social-icons-wrapper .elementor-icon svg:before{
+    transform: translateY(50%);
+}
+body.woocommerce-page .container.content-page{
+	margin-top:4%;	
+}
+body.page-id-1406 .et_b_header-cart{
+	display:none;	
+}
+.et_element.et_b_header-compare{
+display:none;}
+.single-compare{
+display:none;
+}
+body.page-id-1406 .header-main .et_column.et_col-xs-2.et_col-xs-offset-0{
+	display:none;	
+}
+body.page-id-1406 .header-main .et_column.et_col-xs-10.et_col-xs-offset-0{
+	margin:auto;
+}
+
+body.page-id-1393 .et_b_header-cart{
+	display:none;	
+}
+body.page-id-1393 .header-main .et_column.et_col-xs-2.et_col-xs-offset-0{
+	display:none;	
+}
+body.page-id-1393 .header-main .et_column.et_col-xs-10.et_col-xs-offset-0{
+	margin:auto;
+}
+.stock, .out-of-stock{
+    color:#c62828 !important;
+}
+.is-outline, .address_0
+{
+    background: #0B3954!important;
+  padding: 10px 11px 11px 10px !important;
+    font-size: 13px !important;
+     color: white !important;
+}
+.thmaf-xstore_tile_field
+{
+background: none !important;
+}
+.thmaf-add-adr,.add-address {
+   
+    background: none;
+}
+body.page-id-71 .btn-checkout:hover {
+    opacity: 1 !important;
+    background: none !important;
+}
+.btn-add-address{
+background: #0B3954!important;
+color:white !important;
+}
+
+.elementor-custom-button-login-des {
+   font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    background-color: #EEEEEE !important;
+    color: #D4D4D4 !important;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: none !important;
+    padding: 13px 0px 13px 0px !important;
+}
+
+.elementor-custom-button-login-enable {
+   font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    background-color: #37414F !important;
+    color: white !important;
+    border-radius: 6px;
+    margin-top: 20px;
+    border: none !important;
+    padding: 13px 0px 13px 0px !important;
+}
+/* Sign up css */
+.loginwc-header{
+	text-align: center;
+}
+.loginwc-textbox {
+	height: 42px !important;
+    border: 1px solid #EEEEEE !important;
+    border-radius: 4px !important;
+}
+.loginwc-number{
+    height: 42px !important;
+    border: 1px solid #EEEEEE !important;
+    border-radius: 0px 4px 4px 0px !important;
+} 
+
+
+
+.registerbtn {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    background-color: #37414F !important;
+    color: #FFFFFF !important;
+    border-radius: 6px;
+    margin-top: 20px;
+	height: 42px;
+	width: 100%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.43rem;
+}
+
+.input-group .input-group-addon {
+	background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    border-right: none;
+}
+
+.input-group .form-control {
+  border: 1px solid #EEEEEE;
+  border-left: none;
+  padding: 10px;
+}
+
+.input-group .form-control:focus {
+  border-color: #EEEEEE;
+  outline: none;
+}
+
+.input-group-addon {
+  min-width: 60px;
+    height: 42px;
+    border-radius: 4px 0px 0px 4px;
+    color:#0D0F13;
+   font-size: 14px
+line-height: 17px
+}
+.myinput {
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.elementor-1406.et_element et_b_header-cart  flex align-items-center cart-type1  et-content-right et-off-canvas et-off-canvas-wide et-content_toggle et_element-top-level {
+display:none !important;}

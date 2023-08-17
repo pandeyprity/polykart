@@ -1,0 +1,273 @@
+.dashicons.spin {
+  animation: dashicons-spin 1s infinite;
+  animation-timing-function: linear;
+  color: #b32d2e;
+}
+
+@keyframes dashicons-spin {
+  0% {
+     transform: rotate( 0deg );
+  }
+  100% {
+     transform: rotate( 360deg );
+  }
+}
+.dashicons-green{
+  color: green;
+}
+.update_record {
+    /* font-size: 13px !important; */
+    width: 100% !important;
+}
+
+.costom_input{
+	margin: 14px 0px 14px 0px !important;
+}
+.myinput{
+  width: 100%;
+  padding: 12px 20px;
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+#brands{
+    width: 100% !important;   
+}
+#brands + .select2-container{
+    width: 100% !important; 
+}
+#container_obsm {
+    background-color: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+}
+
+#container_obsm h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#container_obsm p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.formError {
+    color: red;
+}
+
+#submit {
+    margin-left: -5px;
+    margin-top: 0px;
+}
+
+select {
+    width: 100%;
+}
+
+.select2 {
+    border: 1px solid var(--et_inputs-border-color, var(--et_border-color));
+    background-color: var(--et_inputs-bg-color, var(--et_white-2-light-dark));
+    outline: 0;
+    border-radius: var(--et_inputs-border-radius, 0);
+    width: 100%;
+    color: var(--et_dark-2-white);
+    font-size: 1.14rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: start;
+}
+
+.select2-selection {
+    border: 1px solid #fff !important;
+}
+
+/* Make Select2 boxes match Bootstrap3 as well as Bootstrap4 heights: */
+.select2-selection__rendered {
+	line-height: 32px !important;
+    margin-top: -4px !important;
+}
+
+.select2-selection {
+	height: 34px !important;
+}
+
+
+.required_astrisk:after {
+    content: " *";
+    color: red;
+}
+
+.delete-tag:hover{
+  color: #b32d2e;
+}
+.form-field label {
+ 	font-weight: 700;
+    margin-bottom: 8px;
+    font-size: initial;
+}
+
+
+
+/* Style the pagination container */
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .pagination > li {
+    display: inline;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+  }
+  .pagination > li:first-child > a,
+  .pagination > li:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .pagination > li:last-child > a,
+  .pagination > li:last-child > span {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  .pagination > li > a:hover,
+  .pagination > li > span:hover,
+  .pagination > li > a:focus,
+  .pagination > li > span:focus {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eeeeee;
+    border-color: #ddd;
+  }
+  .pagination > .active > a,
+  .pagination > .active > span,
+  .pagination > .active > a:hover,
+  .pagination > .active > span:hover,
+  .pagination > .active > a:focus,
+  .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    cursor: default;
+  }
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:hover,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > a:focus {
+    color: #777777;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+  }
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+  }
+  .pagination-lg > li:first-child > a,
+  .pagination-lg > li:first-child > span {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  .pagination-lg > li:last-child > a,
+  .pagination-lg > li:last-child > span {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .pagination-sm > li > a,
+  .pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .pagination-sm > li:first-child > a,
+  .pagination-sm > li:first-child > span {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+  }
+  .pagination-sm > li:last-child > a,
+  .pagination-sm > li:last-child > span {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+/* Notification checkbox css */
+.update_notification {
+  -webkit-appearance: none;
+  appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+.check {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-color: #00000040;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+input:checked[type="checkbox"] ~ .check {
+  background-color: #337ab7;
+  
+}
+
+.check:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  background-color: #ffffff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+input:checked[type="checkbox"] ~ .check:before {
+  left : 21px;
+}
+
+.check:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: translateX(50px);
+  transition: all 0.5s;
+  
+}

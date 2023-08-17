@@ -1,0 +1,154 @@
+.custbtn {
+  background: #0b3954;
+  border-radius: 4px 4px 4px 4px;
+  color: white;
+  font-size: 16px;
+  padding: 9px 34px 15px 35px;
+  margin-top:20px;
+}
+
+.custominput {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #0B3954;
+  box-sizing: border-box;
+}
+
+.form-field input[type=text], .form-field input[type=number] {
+  margin-left: 1px;
+}
+
+.labelbox {
+  font-size: 16px !important;
+}
+
+.containerss {
+  padding: 25px;
+  border: 3px solid #f1f1f1;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.container1 {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.delete-tag:hover{
+  color: #b32d2e;
+}
+
+.errorMessage {
+color: red;
+}
+
+.dashicons-info-outline{
+  color: #337ab7;
+  font-size: medium;
+}
+
+.dashicons.spinner {
+  animation: dashicons-spin 1s infinite;
+  animation-timing-function: linear;
+  color: white;
+}
+.dashicons.spinner:hover {
+  color: black;
+}
+@keyframes dashicons-spinner {
+  0% {
+    transform: rotate( 0deg );
+  }
+  100% {
+    transform: rotate( 360deg );
+  }
+}
+.dashicons.spinner-blue {
+  animation: dashicons-spin 1s infinite;
+  animation-timing-function: linear;
+  color: #337ab7;
+}
+#ajax_status{
+  float: right;
+}
+/* Notification checkbox css */
+.update_api_settingc_css {
+  -webkit-appearance: none;
+  appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+.check {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-color: #00000040;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+input:checked[type="checkbox"] ~ .check {
+  background-color: #337ab7;
+  
+}
+
+.check:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  background-color: #ffffff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+input:checked[type="checkbox"] ~ .check:before {
+  left : 21px;
+}
+
+.check:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: translateX(50px);
+  transition: all 0.5s;
+  
+}
+
+
+/* tooltip */
+.tooltip{
+  position: relative;
+  display: inline-block;  
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width:240px;
+  background-color: #071e26;
+  border-radius: 25px;
+  color: #fff;
+  box-shadow: 10px 10px 5px lightblue;
+  text-align: center;
+  padding: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}

@@ -1,0 +1,18 @@
+2023-07-11T11:52:30+00:00 CRITICAL Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\polykart\wp-includes\formatting.php:4637
+Stack trace:
+#0 C:\xampp\htdocs\polykart\wp-includes\formatting.php(4637): htmlspecialchars(Array, 3, 'UTF-8')
+#1 C:\xampp\htdocs\polykart\wp-content\plugins\woocommerce\includes\admin\wc-meta-box-functions.php(135): esc_textarea(Array)
+#2 C:\xampp\htdocs\polykart\wp-content\plugins\woocommer Stock Notifications\woocommerce-stock-notifications.php(63): woocommerce_wp_textarea_input(Array)
+#3 C:\xampp\htdocs\polykart\wp-includes\class-wp-hook.php(308): add_stock_notification_field('')
+#4 C:\xampp\htdocs\polykart\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\polykart\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\polykart\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#7 C:\xampp\htdocs\polykart\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\polykart\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#9 C:\xampp\htdocs\polykart\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\polykart\wp-admin\includes\template.php(1409): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#11 C:\xampp\htdocs\polykart\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#12 C:\xampp\htdocs\polykart\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\polykart\wp-includes\formatting.php on line 4637
+
